@@ -2,7 +2,7 @@
 - [x] Illiad website
 - [x] Islandora MODS XML to Marc XML transformation file
 - [ ] Alma letters
-- [ ] PrimoVE Discovery Import normalization rule
+- [ ] PrimoVE Discovery Import normalization rules
 - [ ] Locally customized Illiad Add-ons
 - [ ] PrimoVE web configuration files
 - [ ] code for our library Moodle block
