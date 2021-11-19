@@ -1,0 +1,10 @@
+# Projects I'd like to put in GitHub
+[x] Illiad website
+[x] Islandora MODS XML to Marc XML transformation file
+[ ] Alma letters
+[ ] PrimoVE Discovery Import normalization rules
+[ ] Locally customized Illiad Add-ons
+[ ] PrimoVE web configuration files
+[ ] code for our library Moodle block
+[ ] Random other scripts: alma-browzine-export.py, ill_twiliosmsforward.php, past perl and shell scripts that I might need again
+[ ] Course reserve request submission forms (low priority, hopefully these will go away first)
