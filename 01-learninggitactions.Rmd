@@ -1,3 +1,11 @@
 # Learning Git Actions
 
-Here we'll cover how to use Actions in git. Blah blah blah blah.
+_Obligatory introductory chapter._
+
+## About Actions
+Actions and workflows can do a lot, but are definitely hard to get your head around initially.
+
+## Things I'd like do with Actions
+1. Push a file to make it available for lib staff: Push a file to Google Drive each time it is committed.
+2. Testing: Run an XSLT file against a directory of XML files every time the XSLT file is committed. Send the resulting formatted output/errors to either email, to the screen, or to a folder so I can review them.
+3. Testing: Spin up a web server so I can test my php forms on it every time they are committed
