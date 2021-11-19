@@ -1,4 +1,4 @@
-create-your-open-textbook
+im-creating-a-sample-textbook
 learning-git-actions
 about-actions
 things-id-like-do-with-actions
