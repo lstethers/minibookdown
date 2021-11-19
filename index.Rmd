@@ -6,6 +6,6 @@ documentclass: book
 classoption: openany
 ---
 
-# Create your open textbook
+# I'm creating a sample textbook
 
-Hello!!
+We are getting started with Bookdown, Markdown, and Actions
