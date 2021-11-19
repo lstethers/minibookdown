@@ -6,6 +6,12 @@ _Obligatory introductory chapter._
 Actions and workflows can do a lot, but are definitely hard to get your head around initially.
 
 ## Things I'd like do with Actions
-1. Push a file to make it available for lib staff: Push a file to Google Drive each time it is committed.
+1. Push a file to make it available for lib staff: Push a file to Google Drive each time it is committed. I've found these actions that may do what I want:
+a. https://github.com/satackey/action-google-drive
+b. https://github.com/marketplace/actions/upload-files-to-google-drive
+c. https://github.com/Jodebu/upload-to-drive
 2. Testing: Run an XSLT file against a directory of XML files every time the XSLT file is committed. Send the resulting formatted output/errors to either email, to the screen, or to a folder so I can review them.
-3. Testing: Spin up a web server so I can test my php forms on it every time they are committed
+Normally I test my XSLT manually using XMLNotepad against several XML files with data representing different scenarios, but it would be so much faster to have this done automatically and then save or email me the output.
+I found this (xslt-action)[https://github.com/gvlx/xslt-action] repository, but I don't think it's a GitHub action, I think it's specifically for testing inside Visual Studio.
+I can't find any examples of how I might achieve this with GitHub Actions.
+3. Testing: Spin up a web server so I can test my php web forms on it every time they are committed (lower priority since I'm hoping we'll be retiring these forms in the next year)
