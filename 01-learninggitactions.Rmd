@@ -1,8 +1,8 @@
 # Things I'd like do with Actions
 **1. Make file available for lib staff**: Push a file to Google Drive each time it is committed. I've found these actions that may do what I want:
-a. https://github.com/satackey/action-google-drive
-b. https://github.com/marketplace/actions/upload-files-to-google-drive
-c. https://github.com/Jodebu/upload-to-drive
+* https://github.com/satackey/action-google-drive
+* https://github.com/marketplace/actions/upload-files-to-google-drive
+* https://github.com/Jodebu/upload-to-drive
 
 **2. Test XSLT**: Run an XSLT file against a directory of XML files every time the XSLT file is committed. Send the resulting formatted output/errors to either email, to the screen, or to a folder so I can review them.
 Normally I test my XSLT manually using XMLNotepad against several XML files with data representing different scenarios, but it would be so much faster to have this done automatically and then save or email me the output.
