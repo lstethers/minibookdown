@@ -109,6 +109,7 @@
 Normally I test my XSLT manually using XMLNotepad against several XML files with data representing different scenarios, but it would be so much faster to have this done automatically and then save or email me the output.
 I found this (xslt-action)[<a href="https://github.com/gvlx/xslt-action" class="uri">https://github.com/gvlx/xslt-action</a>] repository, but I don’t think it’s a GitHub action, I think it’s specifically for testing inside Visual Studio.
 I can’t find any examples of how I might achieve this with GitHub Actions.</p></li>
+<li><p>Code management: In github I will be managing scripts and web forms that send emails to people. When I am testing them I generally modify the code to send all the emails to a test account or to myself. Then I modify it back to email the real users when I roll it into production. Is this code change for testing vs. prod something I could do automatically through Actions? Or some other way in github, like branching? I’m not sure how to approach it.</p></li>
 <li><p>Testing: Spin up a web server so I can test my php web forms on it every time they are committed (lower priority since I’m hoping we’ll be retiring these forms in the next year)</p></li>
 </ol>
 
