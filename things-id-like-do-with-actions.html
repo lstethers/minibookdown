@@ -96,22 +96,16 @@
             <section class="normal" id="section-">
 <div id="things-id-like-do-with-actions" class="section level1">
 <h1><span class="header-section-number">2</span> Things I’d like do with Actions</h1>
-<ol style="list-style-type: decimal">
-<li>Make file available for lib staff: Push a file to Google Drive each time it is committed. I’ve found these actions that may do what I want:</li>
-</ol>
-<ol style="list-style-type: lower-alpha">
-<li><a href="https://github.com/satackey/action-google-drive" class="uri">https://github.com/satackey/action-google-drive</a></li>
-<li><a href="https://github.com/marketplace/actions/upload-files-to-google-drive" class="uri">https://github.com/marketplace/actions/upload-files-to-google-drive</a></li>
-<li><a href="https://github.com/Jodebu/upload-to-drive" class="uri">https://github.com/Jodebu/upload-to-drive</a></li>
-</ol>
-<ol start="2" style="list-style-type: decimal">
-<li><p>Testing: Run an XSLT file against a directory of XML files every time the XSLT file is committed. Send the resulting formatted output/errors to either email, to the screen, or to a folder so I can review them.
+<p><strong>1. Make file available for lib staff</strong>: Push a file to Google Drive each time it is committed. I’ve found these actions that may do what I want:
+a. <a href="https://github.com/satackey/action-google-drive" class="uri">https://github.com/satackey/action-google-drive</a>
+b. <a href="https://github.com/marketplace/actions/upload-files-to-google-drive" class="uri">https://github.com/marketplace/actions/upload-files-to-google-drive</a>
+c. <a href="https://github.com/Jodebu/upload-to-drive" class="uri">https://github.com/Jodebu/upload-to-drive</a></p>
+<p><strong>2. Test XSLT</strong>: Run an XSLT file against a directory of XML files every time the XSLT file is committed. Send the resulting formatted output/errors to either email, to the screen, or to a folder so I can review them.
 Normally I test my XSLT manually using XMLNotepad against several XML files with data representing different scenarios, but it would be so much faster to have this done automatically and then save or email me the output.
 I found this (xslt-action)[<a href="https://github.com/gvlx/xslt-action" class="uri">https://github.com/gvlx/xslt-action</a>] repository, but I don’t think it’s a GitHub action, I think it’s specifically for testing inside Visual Studio.
-I can’t find any examples of how I might achieve this with GitHub Actions.</p></li>
-<li><p>Code management: In github I will be managing scripts and web forms that send emails to people. When I am testing them I generally modify the code to send all the emails to a test account or to myself. Then I modify it back to email the real users when I roll it into production. Is this code change for testing vs. prod something I could do automatically through Actions? Or some other way in github, like branching? I’m not sure how to approach it.</p></li>
-<li><p>Testing: Spin up a web server so I can test my php web forms on it every time they are committed (lower priority since I’m hoping we’ll be retiring these forms in the next year)</p></li>
-</ol>
+I can’t find any examples of how I might achieve this with GitHub Actions.</p>
+<p><strong>3. Code management</strong>: In github I will be managing scripts and web forms that send emails to people. When I am testing them I generally modify the code to send all the emails to a test account or to myself. Then I modify it back to email the real users when I roll it into production. Is this code change for testing vs. prod something I could do automatically through Actions? Or some other way in github, like branching? I’m not sure how to approach it.</p>
+<p><strong>4. Test web forms</strong>: Spin up a web server so I can test my php web forms on it every time they are committed (lower priority since I’m hoping we’ll be retiring these forms in the next year)</p>
 
 </div>
             </section>
